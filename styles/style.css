@@ -14,14 +14,16 @@
 
 .entrance {
   max-width: 1000px;
+  min-height: 50vh;
   margin: 20px auto;
+  position: relative;
 }
 
 .container {
   font-family: 'Montserrat', sans-serif;
   max-width: 1000px;
   padding: 20px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 h1,
@@ -100,4 +102,41 @@ a {
 
 .park {
   font-weight: bold;
+}
+
+.castle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -250px 0 0 -228px;
+  z-index: 3
+}
+
+.firework {
+  position: absolute;
+  z-index: 2;
+}
+
+/*===========================
+
+
+  Animation Styling
+
+
+==============================*/
+
+.red {
+  width: 300px;
+  top: 15px;
+  animation: explode 5s linear infinite;
+}
+
+
+@keyframes explode {
+  from {
+    transform: translateZ(-100px);
+  }
+  to {
+    transform: translateZ(100px);
+  }
 }
