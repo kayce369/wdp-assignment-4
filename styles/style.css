@@ -61,6 +61,18 @@ th {
     font-size: 20px;
 }
 
+a:hover {
+  background: #800080;
+  color: white;
+  transition: .3s;
+}
+
+a {
+  text-decoration: none;
+  color: #800080;
+  transition: .3s;
+}
+
 .ears {
   display: inline;
 }
