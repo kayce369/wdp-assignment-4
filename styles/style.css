@@ -30,8 +30,13 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  display: inline;
+}
+
 p {
   line-height: 1.5;
+  margin: 20px 0;
 }
 
 ul {
@@ -56,6 +61,9 @@ th {
     font-size: 20px;
 }
 
+.ears {
+  display: inline;
+}
 
 .notice {
   background: yellow;
