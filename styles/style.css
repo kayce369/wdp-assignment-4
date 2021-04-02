@@ -40,10 +40,12 @@ h3 {
 
 h1 {
   text-align: center;
+  font-size: 54px;
 }
 
 h2 {
   display: inline;
+  font-size: 36px;
 }
 
 p {
@@ -68,7 +70,7 @@ td {
 }
 
 th {
-    background: #f2f2f2;
+    background: #62b4cf;
     padding: 10px;
     font-size: 20px;
 }
@@ -143,21 +145,21 @@ a {
   height: 200px;
   top: 15px;
   right: 180px;
-  animation: explode 3s linear infinite;
+  animation: explode 2s linear infinite;
 }
 
 .purple {
   height: 250px;
   top: 25px;
   left: 175px;
-  animation: explode 2.5s linear infinite;
+  animation: explode 1.75s linear infinite;
 }
 
 .yellow {
   height: 150px;
   top: 10px;
   left: 400px;
-  animation: explode 2.15s linear infinite;
+  animation: explode 1.15s linear infinite;
 }
 
 
