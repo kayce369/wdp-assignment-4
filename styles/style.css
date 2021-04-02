@@ -12,7 +12,7 @@
   border: 0;
 }
 
-body {
+.container {
   font-family: 'Montserrat', sans-serif;
   max-width: 1000px;
   padding: 20px;
