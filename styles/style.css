@@ -113,7 +113,8 @@ a {
 }
 
 .red,
-.purple {
+.purple,
+.yellow {
   position: absolute;
   z-index: 2;
 }
@@ -139,6 +140,13 @@ a {
   top: 25px;
   left: 175px;
   animation: explode 2.5s linear infinite;
+}
+
+.yellow {
+  height: 150px;
+  top: 10px;
+  left: 400px;
+  animation: explode 2.15s linear infinite;
 }
 
 
