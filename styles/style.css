@@ -12,6 +12,10 @@
   border: 0;
 }
 
+body {
+  background-color: #e9f5f8;
+}
+
 .entrance {
   max-width: 1000px;
   min-height: 50vh;
@@ -102,6 +106,13 @@ a {
 
 .park {
   font-weight: bold;
+}
+
+.logo {
+  position: fixed;
+  bottom: 20px;
+  right: 100px;
+  z-index: -1;
 }
 
 .castle {
